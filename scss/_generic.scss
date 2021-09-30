@@ -1,0 +1,11 @@
+.button{
+    display: block;
+    margin: 30px 0px;
+    padding: 10px 18px;
+    background-color: $off-white;
+    @include shadow-bottom(rgba(89, 73, 30, 0.36));
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+}

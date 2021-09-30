@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    padding-bottom: 58px;
+}
+
+.header__logo{
+    width: 160px;
+    margin-top: 40px;
+}
+
+.header__tittle{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 40px;
+    font-size: 1.6rem;
+    color: $just-white;
+}
+
+.header__description{
+    margin-top: 25px;
+    color: $soft-orange;
+    font-size: 0.9rem;
+}
+
+.header__button{
+    position: absolute;
+    bottom: -19px;
+    margin: 0px;
+}
+
+.header__a{
+    color: $black;
+    display: inline-block;
+}
+
+.header__a-span{
+    display: inline-block;
+    margin-left: 8px;
+    width: 13px;
+    height: 8px;
+    background-image: url(../assets/icons/down-arrow.svg);
+}

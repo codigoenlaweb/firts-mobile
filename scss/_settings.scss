@@ -11,6 +11,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
 }
 
 img{
@@ -22,16 +23,22 @@ img{
         * Variables *
 ========================== */
 
-/*
-$color1: #;
-$color2: #;
-$color3: #;
-$color4: #;
-*/
-/*
-$font1: ;
-$font2: ;
-*/
+// COLORS
+
+$bitcoin-orange: #f7931a;
+$soft-orange: #FFe9d5;
+$secondary-blue: #1A9af7;
+$soft-blue: #e7f5ff;
+$warm-black: #201e1c;
+$black: #282623;
+$grey: #bababa;
+$off-white: #FAF8F7;
+$just-white: #fff;
+
+// FONTS FAMILY
+
+$fontDM: 'DM Sans', sans-serif;
+$fontInter: 'Inter', sans-serif;
 
 /* ==========================
         * Base Skeleton *
