@@ -6,6 +6,7 @@
     position: relative;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
     padding-bottom: 58px;
+    width: 100%;
 }
 
 .header__logo{
@@ -15,14 +16,16 @@
 
 .header__tittle{
     width: 90%;
+    max-width: 1000px;
     min-width: 288px;
-    max-width: 900px;
     margin-top: 40px;
     font-size: 1.6rem;
     color: $just-white;
 }
 
 .header__description{
+    width: 80%;
+    max-width: 1000px;
     margin-top: 25px;
     color: $soft-orange;
     font-size: 0.9rem;

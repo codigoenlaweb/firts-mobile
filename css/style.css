@@ -188,7 +188,7 @@ img {
   width: 100%;
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: "header" "aside" "main" "footer";
+  grid-template-areas: "header" "main" "aside" "footer";
   margin: 0px auto;
 }
 
@@ -196,27 +196,40 @@ img {
         * Responsive Base Skeleton *
 ====================================== */
 /* Medium Size For Tablet */
-@media (min-width: 750px) {
-  .layout {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "header header" "main aside" "footer footer";
-    margin: 0px auto;
-  }
+/*
+@media (min-width: 750px){
+    .layout{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        'header header'
+        'main aside'
+        'footer footer';
+        margin: 0px auto;
+    }
+
 }
+*/
 /* Small Size For Phone */
-@media (min-width: 1025px) {
-  .layout {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "header header" "main aside" "footer footer";
-    margin: 0px auto;
-  }
+/*
+@media (min-width: 1025px){
+    .layout{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        'header header'
+        'main aside'
+        'footer footer';
+        margin: 0px auto;
+    }
+
 }
+
+*/
 /* ======================================
         * Config Base Skeleton *
 ====================================== */
@@ -265,6 +278,7 @@ img {
   position: relative;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
   padding-bottom: 58px;
+  width: 100%;
 }
 
 .header__logo {
@@ -274,14 +288,16 @@ img {
 
 .header__tittle {
   width: 90%;
+  max-width: 1000px;
   min-width: 288px;
-  max-width: 900px;
   margin-top: 40px;
   font-size: 1.6rem;
   color: #fff;
 }
 
 .header__description {
+  width: 80%;
+  max-width: 1000px;
   margin-top: 25px;
   color: #FFe9d5;
   font-size: 0.9rem;
@@ -304,6 +320,194 @@ img {
   width: 13px;
   height: 8px;
   background-image: url(../assets/icons/down-arrow.svg);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #FAF8F7;
+}
+
+.main-principal {
+  margin-top: 55px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.main__img {
+  width: 100%;
+  min-width: 290px;
+  max-width: 320px;
+}
+
+.main__tittle {
+  margin-top: 44px;
+  font-size: 1.6rem;
+  color: #282623;
+  font-weight: bold;
+}
+
+.main__p {
+  margin-top: 16px;
+  font-size: 1rem;
+  color: #282623;
+  font-weight: 500;
+  color: #757575;
+}
+
+.main__table-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 40px;
+  font-size: "Inter", sans-serif;
+  padding-bottom: 30px;
+}
+
+.main__h3 {
+  color: #f7931a;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.main__table-responsive {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main__table-container {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  margin-top: 6px;
+  border-radius: 5px;
+  width: 95%;
+  min-width: 200px;
+  max-width: 320px;
+  justify-content: center;
+}
+
+.main__table-money {
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-bottom: none;
+  padding: 5px 0px;
+}
+
+.main__table-money:nth-child(1) {
+  border-radius: 8px 0px 0px 0px;
+}
+
+.main__table-money:nth-last-child(3) {
+  border-radius: 0px 0px 0px 8px;
+}
+
+.main__table-momentum {
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-bottom: none;
+  border-left: none;
+  padding: 5px 0px;
+}
+
+.main__table-momentum:nth-child(2) {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.main__table-momentum:nth-last-child(2) {
+  border-radius: 0px 0px 8px 0px;
+}
+
+.main__table-momentum-img {
+  width: 13px;
+  margin-top: 2px;
+}
+
+.update-date {
+  grid-column: span 2;
+  background-color: #FFe9d5;
+  padding: 4px 0px;
+  border-radius: 6px;
+  width: 95%;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 28px;
+  font-size: 0.9rem;
+}
+
+.section-benefits {
+  background-color: #201e1c;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.section-benefits__logo {
+  position: absolute;
+  width: 40px;
+  top: -10px;
+}
+
+.section-benefits__tittle {
+  width: 90%;
+  max-width: 1000px;
+  color: #FAF8F7;
+  margin-top: 40px;
+  font-size: 1.6rem;
+}
+
+.section-benefits__p {
+  color: #bababa;
+  font-size: 1rem;
+  margin-top: 22px;
+}
+
+.section-benefits-cards-responsive {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0px auto;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.section-benefits-card {
+  width: 100%;
+  min-width: 280px;
+  max-width: 320px;
+  background-color: #282623;
+  text-align: left;
+  padding: 16px 14px 20px 14px;
+  margin-top: 18px;
+  border-radius: 6px;
+}
+
+.section-benefits-card-icon {
+  width: 24px;
+}
+
+.section-benefits-card-tittle {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+.section-benefits-card-description {
+  margin-top: 10px;
+  color: #bababa;
+  font-size: 0.9rem;
 }
 
 /* ==========================

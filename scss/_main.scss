@@ -1,0 +1,188 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: $off-white;
+}
+
+.main-principal{
+    margin-top: 55px;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.main__img{
+    width: 100%;
+    min-width: 290px;
+    max-width: 320px;
+}
+
+.main__tittle{
+    margin-top: 44px;
+    font-size: 1.6rem;
+    color: $black;
+    font-weight: bold;
+}
+
+.main__p{
+    margin-top: 16px;
+    font-size: 1rem;
+    color: $black;
+    font-weight: 500;
+    color: #757575;
+}
+
+.main__table-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 40px;
+    font-size: $fontInter;
+    padding-bottom: 30px;
+}
+
+.main__h3{
+    color: $bitcoin-orange;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main__table-responsive{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main__table-container{
+    display: grid;
+    grid-template-columns: 58% 42%;
+    margin-top: 6px;
+    border-radius: 5px;
+    width: 95%;
+    min-width: 200px;
+    max-width: 320px;
+    justify-content: center;
+}
+
+.main__table-money{
+    background-color: $just-white;
+    border: 1px solid rgb(245, 245, 245);
+    border-bottom: none;
+    padding: 5px 0px;
+}
+
+.main__table-money:nth-child(1){
+    border-radius: 8px 0px 0px 0px;
+}
+
+.main__table-money:nth-last-child(3){
+    border-radius: 0px 0px 0px 8px;
+}
+
+
+.main__table-momentum{
+    background-color: $just-white;
+    border: 1px solid rgb(245, 245, 245);
+    border-bottom: none;
+    border-left: none;
+    padding: 5px 0px;
+}
+
+.main__table-momentum:nth-child(2){
+    border-radius: 0px 8px 0px 0px;
+}
+
+.main__table-momentum:nth-last-child(2){
+    border-radius: 0px 0px 8px 0px;
+}
+
+.main__table-momentum-img{
+    width: 13px;
+    margin-top: 2px;
+}
+
+.update-date{
+    grid-column: span 2;
+    background-color: $soft-orange;
+    padding: 4px 0px;
+    border-radius: 6px;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 0.9rem;
+}
+
+.section-benefits{
+    background-color: $warm-black;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.section-benefits__logo{
+    position: absolute;
+    width: 40px;
+    top: -10px;
+}
+
+.section-benefits__tittle{
+    width: 90%;
+    max-width: 1000px;
+    color: $off-white;
+    margin-top: 40px;
+    font-size: 1.6rem;
+}
+
+.section-benefits__p{
+    color: $grey;
+    font-size: 1rem;
+    margin-top: 22px;
+}
+
+.section-benefits-cards-responsive{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+
+.section-benefits-card{
+    width: 100%;
+    min-width: 280px;
+    max-width: 320px;
+    background-color: $black;
+    text-align: left;
+    padding: 16px 14px 20px 14px;
+    margin-top: 18px;
+    border-radius: 6px;
+}
+
+.section-benefits-card-icon{
+    width: 24px;
+}
+
+.section-benefits-card-tittle{
+    font-size: 1.2rem;
+    color: $just-white;
+    font-family: $fontInter;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.section-benefits-card-description{
+    margin-top: 10px;
+    color: $grey;
+    font-size: 0.9rem;
+}

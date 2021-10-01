@@ -51,17 +51,20 @@ $fontInter: 'Inter', sans-serif;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: 
     'header'
-    'aside'
     'main'
+    'aside'
     'footer';
     margin: 0px auto;
 }
+
+
 
 /* ======================================
         * Responsive Base Skeleton *
 ====================================== */
 
 /* Medium Size For Tablet */
+/*
 @media (min-width: 750px){
     .layout{
         display: grid;
@@ -76,8 +79,9 @@ $fontInter: 'Inter', sans-serif;
     }
     
 }
-
+*/
 /* Small Size For Phone */
+/*
 @media (min-width: 1025px){
     .layout{
         display: grid;
@@ -93,7 +97,7 @@ $fontInter: 'Inter', sans-serif;
     
 }
 
-
+*/
 /* ======================================
         * Config Base Skeleton *
 ====================================== */
