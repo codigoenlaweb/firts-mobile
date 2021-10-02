@@ -661,6 +661,45 @@ img {
   width: 28px;
 }
 
+.footer {
+  display: flex;
+  background-color: #f7931a;
+  padding: 24px 0px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
+
+.footer__img {
+  width: 50%;
+  min-width: 100px;
+  max-width: 200px;
+}
+
+.footer__ul-li {
+  padding: 8px 0px;
+  font-size: 1.3rem;
+  transition: 0.3s all;
+}
+
+.footer__ul-li-a {
+  color: #f0f0f0;
+}
+
+.footer__ul-li-a:hover {
+  color: #ffffff;
+}
+
+.footer__ul-li:hover {
+  transform: scale(1.4);
+}
+
 /* ==========================
         * Responsive *
 ========================== */
