@@ -262,12 +262,21 @@ img {
   display: block;
   margin: 30px 0px;
   padding: 10px 18px;
-  background-color: #FAF8F7;
+  background-color: #ffffff;
   box-shadow: 0 5px 10px rgba(89, 73, 30, 0.36);
   border: none;
   border-radius: 4px;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.button__orange {
+  background-color: #f7931a;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 7px 5px;
+  font-size: 0.8rem;
+  box-shadow: -2px -2px 1px #e98a16;
 }
 
 .header {
@@ -292,7 +301,7 @@ img {
   min-width: 288px;
   margin-top: 40px;
   font-size: 1.6rem;
-  color: #fff;
+  color: #f0f0f0;
 }
 
 .header__description {
@@ -328,7 +337,7 @@ img {
   align-items: center;
   text-align: center;
   width: 100%;
-  background-color: #FAF8F7;
+  background-color: #f0f0f0;
 }
 
 .main-principal {
@@ -394,8 +403,8 @@ img {
 }
 
 .main__table-money {
-  background-color: #fff;
-  border: 1px solid whitesmoke;
+  background-color: #ffffff;
+  border: 2px solid #f0f0f0;
   border-bottom: none;
   padding: 5px 0px;
 }
@@ -409,8 +418,8 @@ img {
 }
 
 .main__table-momentum {
-  background-color: #fff;
-  border: 1px solid whitesmoke;
+  background-color: #ffffff;
+  border: 2px solid #f0f0f0;
   border-bottom: none;
   border-left: none;
   padding: 5px 0px;
@@ -460,7 +469,7 @@ img {
 .section-benefits__tittle {
   width: 90%;
   max-width: 1000px;
-  color: #FAF8F7;
+  color: #ffffff;
   margin-top: 40px;
   font-size: 1.6rem;
 }
@@ -498,7 +507,7 @@ img {
 
 .section-benefits-card-tittle {
   font-size: 1.2rem;
-  color: #fff;
+  color: #f0f0f0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-top: 7px;
@@ -508,6 +517,148 @@ img {
   margin-top: 10px;
   color: #bababa;
   font-size: 0.9rem;
+}
+
+.aside {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding-bottom: 40px;
+}
+
+.aside-logo {
+  max-height: 90vh;
+  width: 100%;
+}
+
+.aside-logo-p {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  top: 19vh;
+}
+
+.aside__sectio-planes {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.aside__sectio-planes-h2 {
+  font-size: 1.4rem;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.aside__sectio-planes-p {
+  margin-top: 16px;
+  font-size: 1rem;
+  color: #282623;
+  font-weight: 500;
+  color: #757575;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.sectio-planes__cards {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  column-gap: 30px;
+}
+
+.sectio-planes__card {
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 68%;
+  height: 260px;
+  min-width: 230px;
+  max-width: 300px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 30px 10px 0px 10px;
+  position: relative;
+  box-shadow: 0 5px 10px rgba(89, 73, 30, 0.36);
+}
+
+.sectio-planes__card-recommended {
+  position: absolute;
+  top: -13px;
+}
+
+.sectio-planes__card-payment-type {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #282623;
+}
+
+.sectio-planes__card-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.sectio-planes__card-div-span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-right: 3px;
+}
+
+.sectio-planes__card-div-price {
+  font-size: 3.3rem;
+  font-weight: bold;
+}
+
+.sectio-planes__card-description {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.sectio-planes__card-button {
+  width: 80%;
+  padding: 6px 0px;
+  margin-top: 20px;
+  border: 1.8px solid gray;
+  transition: 0.3s all;
+  position: absolute;
+  bottom: 18px;
+}
+
+.sectio-planes__card-button:hover {
+  border: 1.8px solid #f7931a;
+  border-radius: 3px;
+}
+
+.sectio-planes__card-button:active {
+  box-shadow: 0px 0px 8px #f7931a inset;
+}
+
+.sectio-planes__card-button-a {
+  color: black;
+  padding: 2px;
+  line-height: 26px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.sectio-planes__card-button-img {
+  width: 28px;
 }
 
 /* ==========================

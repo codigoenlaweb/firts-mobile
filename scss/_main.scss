@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    background-color: $off-white;
+    background-color: $just-white;
 }
 
 .main-principal{
@@ -70,8 +70,8 @@
 }
 
 .main__table-money{
-    background-color: $just-white;
-    border: 1px solid rgb(245, 245, 245);
+    background-color: $off-white;
+    border: 2px solid $just-white;
     border-bottom: none;
     padding: 5px 0px;
 }
@@ -86,8 +86,8 @@
 
 
 .main__table-momentum{
-    background-color: $just-white;
-    border: 1px solid rgb(245, 245, 245);
+    background-color: $off-white;
+    border: 2px solid $just-white;
     border-bottom: none;
     border-left: none;
     padding: 5px 0px;
